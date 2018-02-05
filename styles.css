@@ -2,4 +2,39 @@
 Your styles should go in here.
 Use any styles of your choosing, the solution should support the latest browsers -1.
 */
+body {
+    background-color:#809fff;
+}
+.pictures {
+    margin: auto;
+    width: 25%;
+    background-color:white;
+    padding: -30px;
+    padding-right:30px;
+}
+.content {
+    margin: auto;
+    width: 25%;
+    
+}
+.content button {
+    background-color:white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    
+    
+
+}
+.img-circle {
+    border-radius: 50%;
+}
+
 
