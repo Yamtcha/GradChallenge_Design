@@ -3,7 +3,7 @@ Your styles should go in here.
 Use any styles of your choosing, the solution should support the latest browsers -1.
 */
 body {
-    background-color:#809fff;
+    background-color:#5B9EED;
 }
 
 .content {
@@ -27,7 +27,7 @@ button {
 
 .flex-container {
     display: flex;
-    height: 650px;
+    height: 520px;
     width:  400px;
     flex-direction: column;
     margin: 40px auto auto auto;
@@ -42,6 +42,26 @@ button {
     margin: auto auto auto auto ;
     display: inline;
 }
+.ProfileA {
+    padding:2px;
+}
+.ProfileB {
+    padding:2px
+}
+.ProfileC {
+    padding:2px
+}
+img{
+    height: 100px;
+    float: left;
+    position: relative;
+    left:23px;
+    bottom:0px;
+    padding:5px;
+    border-radius:50%;
+}
+
+
 
 
 
