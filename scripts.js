@@ -5,9 +5,10 @@ Some hints are given below but you can use any structure or approach of your cho
 
 */
 
-var button = document.querySelector('.targetClassName');
-
-button.addEventListener('click', function(e) {
-
-  
+document.getElementById("button").addEventListener("click", function(){
+    if (document.getElementById("button").innerHTML === "Hide Content"){
+        document.getElementById("button").innerHTML = "Show Content";
+    }else{
+        document.getElementById("button").innerHTML = "Hide Content";
+    }  
 });
