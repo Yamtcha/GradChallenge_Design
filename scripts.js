@@ -6,9 +6,11 @@ Some hints are given below but you can use any structure or approach of your cho
 */
 
 document.getElementById("button").addEventListener("click", function(){
-    if (document.getElementById("button").innerHTML === "Hide Content"){
-        document.getElementById("button").innerHTML = "Show Content";
-    }else{
+    if (document.getElementById("button").innerHTML === "Show Content"){
         document.getElementById("button").innerHTML = "Hide Content";
+        document.getElementById("flexbox" ).style.display = "flex";
+    }else{
+        document.getElementById("flexbox" ).style.display = "none";
+        document.getElementById("button").innerHTML = "Show Content";
     }  
 });
